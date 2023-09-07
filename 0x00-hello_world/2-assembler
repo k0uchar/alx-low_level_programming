@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -S $CFILE 
+chmod u+x 2-assembler
