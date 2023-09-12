@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Define the filename and code
+filename="main.c"
+code="#include \"main.h\"
+/**
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
+ */
+
+int main(void)
+{
+    _putchar('_');
+    _putchar('p');
+    _putchar('u');
+    _putchar('t');
+    _putchar('c');
+    _putchar('h');
+    _putchar('a');
+    _putchar('r');
+    _putchar('\\n');
+    return (0);
+}
+"
+
+# Create the file with the specified code
+echo "$code" > "$filename"
+
+# Inform the user that the file has been created
+echo "File '$filename' has been created with the provided code."
+
