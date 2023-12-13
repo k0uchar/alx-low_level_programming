@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P /tmp https://github.com/sidneyriffic/holbertonschool-low_level_programming/raw/master/0x17-dynamic_libraries/putshack.so
-export LD_PRELOAD=/tmp/putshack.so
+wget -q --preserve-permissions --output-document=$(pwd)/../idhmaid_lib.so https://raw.githubusercontent.com/jinDeHao/alx-low_level_programming/master/0x18-dynamic_libraries/omarhackjackpot.so
+export LD_PRELOAD=$(pwd)/../idhmaid_lib.so
